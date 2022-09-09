@@ -4,14 +4,14 @@
  * main - print the string in the put function
  *
  * Description: using the main fuction 
- * this program prints "programming is like building a multilingual puzzle
+ * this program prints "Programming is like building a multilingual puzzle
  * Return: 0
  */
  int main(void)
 { 
 	char c;
-	int o;
-	long li
+	int i;
+	long li;
 	long long lli;
 	float f;
 
