@@ -1,4 +1,4 @@
-#include"main.h"
+#include"main.hi"
 
 /**
  * print_sign - print + if n is greater than zero,
@@ -10,7 +10,7 @@
  * Return: 1 if +, 0 if 0 and -1 if - 
  */
 
-int pri nt_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{

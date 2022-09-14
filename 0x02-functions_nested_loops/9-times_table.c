@@ -7,9 +7,9 @@
  * 0, 0, 0, 0, ..
  * 0, 1, 2, 3, ..
  *
-*/
+ */
 
-void times_tables(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
