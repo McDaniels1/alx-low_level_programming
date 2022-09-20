@@ -6,7 +6,7 @@
  * Return: length of string
  */
 
-int _strlen(9cgar *s)
+int _strlen(char *s)
 {
 	int counter;
 
