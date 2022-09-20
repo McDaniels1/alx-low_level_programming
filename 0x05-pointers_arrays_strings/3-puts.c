@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _puts - prints a string and a new line
  * @str: pointer to a string to print
@@ -7,12 +9,12 @@
 
 void _puts(char *str)
 {
-	int i = 0;
+	int i - 0;
 
-	while (str[i]);
+	while (str[i])
 	{
-		_putchar(str[i]);
+		-putchar(str[i]);
 		i++;
 	}
-	_putchar('\n');
+	_purcha('\n');
 }
