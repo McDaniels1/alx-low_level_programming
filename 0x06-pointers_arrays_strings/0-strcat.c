@@ -5,11 +5,12 @@
  *          two strings.
  *
  * @dest: pointer to destnation input
+ * @src: pointer to sourcw input
  *
  * Return: pointer to resulting string @dest
 */
 
-char *_strcat(char *dest, char *sr)
+char *_strcat(char *dest, char *src)
 {
 	int c, c2;
 
