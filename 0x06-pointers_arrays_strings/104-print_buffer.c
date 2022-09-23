@@ -3,13 +3,13 @@
 
 /**
  * print_buffer - Prints a buffer 10 bytes at a time, starting with
- * 		  the byte position, then showing the hex content,
- * 		  then displaying printable characters.
+ *                the byte position, then showing the hex content,
+ *                then displaying printable charcaters.
  * @b: The buffer to be printed.
- * @size: The number of byte to be printed from the buffer.
+ * @size: The number of bytes to be printed from the buffer.
  */
 
-vid print_butter(char *b, int size)
+void print_buffer(char *b, int size)
 {
 	int byte, index;
 
@@ -20,13 +20,13 @@ vid print_butter(char *b, int size)
 		for (index = 0; index < 10; index++)
 		{
 			if ((index + byte) >= size)
-				printf(" ");
+				printf("  ");
 			else
 				printf("%02x", *(b + index + byte));
 			if ((index % 2) != 0 && index != 0)
 				printf(" ");
 		}
-		for (index + 0; index < 10; index++)
+		for (index = 0; index < 10; index++)
 		{
 			if ((index + byte) >= size)
 				break;
