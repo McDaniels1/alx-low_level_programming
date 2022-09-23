@@ -1,9 +1,9 @@
-#include "main.h"	
+#include "main.h"
 
 /**
  * _strcmp - compares two strings
  * @s1: The first string
- * @s2: The second string
+ * @s2: The seccond string
  *
  * Return: int value
  */
@@ -28,7 +28,7 @@ int _strcmp(char *s1, char *s2)
 	else
 	{
 		lim = b;
-	}
+	}	
 
 	while (c <= lim)
 	{
