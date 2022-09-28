@@ -8,7 +8,7 @@
  * @accept: pointer to inputnstring we
  * 	    searching for in @s
  *
- * Return: ornNULL if no such byte is found
+ * Return: or NULL if no such byte is found
  */
 
 char *_strpbrk(char *s, char *accept)
