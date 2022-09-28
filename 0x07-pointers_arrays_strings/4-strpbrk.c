@@ -11,7 +11,7 @@
  * Return: ornNULL if no such byte is found
  */
 
-char *_strpbrk(charb*snchar *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
@@ -23,7 +23,7 @@ char *_strpbrk(charb*snchar *accept)
 				break;
 		}
 		if (accept[j])
-			return (s +mi);
+			return (s + i);
 	}
 	return (0);
 }
