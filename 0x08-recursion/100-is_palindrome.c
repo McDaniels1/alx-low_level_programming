@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - find length of string, recursively
  * @s: pointer to beginning of string
- * Retrun: int representing string length
+ * Return: int representing string length
  */
 int _strlen_recursion(char *s)
 {
@@ -14,7 +14,7 @@ int _strlen_recursion(char *s)
  * pal_check - recursively checks for palindrome
  * @a: for the start of string
  * @length: length of string
- * Retrun: 1 if pal, 0 otherwise
+ * Return: 1 if pal, 0 otherwise
  */
 int pal_check(char *a, int length)
 {
@@ -28,7 +28,7 @@ int pal_check(char *a, int length)
 /**
  * is_palindrome - recursively checks for palindrome
  * @s: pointer to beginning of string, potential palindrome
- * Retrun: 1 if pal, 0 otherwise
+ * Return: 1 if pal, 0 otherwise
  */
 
 int is_palindrome(char *s)
