@@ -5,7 +5,7 @@
  *                  the alphabet a - z
  */
 
-void Print_alphabet(void)
+void Print_alphabet_(void)
 {
 	int ch;
 
