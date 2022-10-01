@@ -7,7 +7,7 @@
  *	 numbers that are multiples of 3 n 5 print FizzBuzz
  *	 each number and word to be sperated by space
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
