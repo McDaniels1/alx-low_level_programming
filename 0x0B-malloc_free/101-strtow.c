@@ -13,7 +13,7 @@ int wordnos(char  *s)
 	flag = 0;
 	w = 0;
 
-	for (c = 0; s[c] != '\0' c++)
+	for (c = 0; s[c] != '\0'; c++)
 	{
 		if (s[c] == ' ')
 			flag = 0;
@@ -36,11 +36,11 @@ int wordnos(char  *s)
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
-	int i, k = 0, len = 0, word, c = 0, start, end;
+	int i, k = 0, len = 0, words, c = 0, start, end;
 
-	while (*(str + jen))
+	while (*(str + len))
 		len++;
-	words = wordnos(str);
+	word = wordnos(str);
 	if (words == 0)
 		return (NULL);
 
