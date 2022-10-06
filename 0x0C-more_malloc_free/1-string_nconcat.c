@@ -21,7 +21,7 @@ int _strlen(char *string)
  * @n: n bytes to concat from string 2
  * Return: pointer to concatenated string
  */
-char *string nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
 	int num, len, i, j;
@@ -40,7 +40,7 @@ char *string nconcat(char *s1, char *s2, unsigned int n)
 	len = _strlen(s1) + num + 1; /* +1 to account for null pointer */
 
 	ptr = malloc(sizeof(*ptr) * len); /* malloc and check for error */
-	if (ptr = NULL)
+	if (ptr == NULL)
 		return (NULL);
 
 	for (i = 0; s1[i] != '\0'; i++) /* concat */
@@ -51,4 +51,3 @@ char *string nconcat(char *s1, char *s2, unsigned int n)
 
 	return (ptr);
 }
-		
