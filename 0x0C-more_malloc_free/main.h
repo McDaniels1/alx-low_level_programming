@@ -1,11 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
+
+#define min(x, y) ((x) ? (x) : (y))
 
 void _puts(char *str);
 void *malloc_checked(unsigned int b);
+int len(char *str);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
@@ -15,4 +18,4 @@ int _atoi(const char *s);
 void print_int(unsigned long int n);
 char *create_xarray(int size);
 
-#endif
+#endif /*MAIN_H*/

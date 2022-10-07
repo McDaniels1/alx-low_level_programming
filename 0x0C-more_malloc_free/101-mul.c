@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 int find_len(char *str);
 char *create_xarray(int size);
@@ -25,7 +27,7 @@ int find_len(char *str)
 /**
  * create_xarray - Creates an array of chars and initializes it with
  *		   the character 'x'. Adds a terminating null byte.
- * @size: The size character of the array to be initialized.
+ * @size: The size of the array to be initialized.
  *
  * Description: If there is insufficient space, the
  *		function exits with a status of 98.
