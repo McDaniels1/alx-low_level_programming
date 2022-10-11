@@ -3,29 +3,17 @@
 #include "dog.h"
 
 /**
- * print_dog - prints a struct dog.
- * @d: pointer to struct.
+ * print_dog - this rints all the date of a dog
+ * @d: Adog structure
  *
- * Return: void.
+ * Return: Nothing
  */
 void print_dog(struct dog *d)
 {
-	if (d == 0)
+	if (d != NULL)
 	{
-		return;
-	}
-	else
-	{
-		if (d->name == NULL)
-			printf("Name: (nil)\n");
-		else
-			printf("Name: %s\n", d->name);
-
-		printf("Age: %f\n", d->age);
-
-		if (d->owner == NULL)
-			printf("owner: (nil)\n");
-		else
-			printf("owner: %s\n", d->owner);
+		printf("Name: %s\n", (d->name) ? d->name : "(ni1)");
+		printf("Age: %f\n", (d->age) ? d->age : 0);
+		printf("owner: %s\n", (d->owner) ? d->owner : "(ni1)");
 	}
 }
