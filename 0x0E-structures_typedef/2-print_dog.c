@@ -4,7 +4,7 @@
 
 /**
  * print_dog - this rints all the date of a dog
- * @d: Adog structure
+ * @d: A dog structure
  *
  * Return: Nothing
  */
