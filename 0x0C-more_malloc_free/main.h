@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 #define min(x, y) ((x) ? (x) : (y))
 
@@ -16,6 +17,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _putchar(char c);
 int _atoi(const char *s);
 void print_int(unsigned long int n);
-char *create_xarray(int size);
 
 #endif /*MAIN_H*/
