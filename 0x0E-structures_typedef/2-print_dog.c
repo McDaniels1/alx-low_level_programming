@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * print_dog - this rints all the date of a dog
+ * print_dog - this rints all the data of a dog
  * @d: A dog structure
  *
  * Return: Nothing
