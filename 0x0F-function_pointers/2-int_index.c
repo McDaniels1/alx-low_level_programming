@@ -1,4 +1,3 @@
-#include "FUNCTION_POINTERS_H"
 /**
  * int_index - searches for an integer.
  * @array: array of integers.
@@ -15,6 +14,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	res = -1;
 	if (array && cmp)
 	{
+
 		if (size <= 0)
 		{
 			return (res);
