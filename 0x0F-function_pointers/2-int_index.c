@@ -1,3 +1,5 @@
+#include "FUNCTION_POINTERS_H"
+
 /**
  * int_index - searches for an integer.
  * @array: array of integers.
