@@ -27,13 +27,13 @@ int op_sub(int a, int b)
 /**
  * op_mul - calculates the product of two integers
  * @a: first integer
- * @b: seconf inyeger
+ * @b: second integer
  *
  * Return: product of a and b
  */
 int op_mul(int a, int b)
 {
-	return ( a * b);
+	return (a * b);
 }
 
 /**
@@ -45,7 +45,7 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
-	return ( a / b);
+	return (a / b);
 }
 
 /**
