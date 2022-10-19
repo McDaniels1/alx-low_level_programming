@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Description: print value of n status; zero, positive or negative
+ * Description: print value of n satus; zero, positive or negative
  *
- * Return: Always 0 (success)
- */
+ * Return: Always 0 (Success)
+*/
 
 void positive_or_negative(int i)
 {
